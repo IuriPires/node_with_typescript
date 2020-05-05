@@ -6,7 +6,9 @@
   "password": "root",
   "database": "gostack_gobarber",
   "migrations": [
-    "./src/databse/migrations/*.ts"
-  ]
-
+    "./src/database/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
 }
