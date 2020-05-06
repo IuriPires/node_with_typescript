@@ -15,7 +15,7 @@ export class CreateAppointments1588709312310 implements MigrationInterface {
               default: 'uuid_generate_v4()'
             },
             {
-              name: 'provider',
+              name: 'provider_id',
               type: 'varchar',
               isNullable: false
             },
