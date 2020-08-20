@@ -30,7 +30,8 @@ module.exports = {
       {
         "ts": "never"
       }
-    ]
+    ],
+    "@typescript-eslint/interface-name-prefix": ["error", {"prefixWithI": "always"}],
   },
   "settings": {
     "import/resolver": {
